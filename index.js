@@ -42,7 +42,6 @@ function calculate(x){
             }
             x = -b/a;
             resultado = x
-        case ""
-    }
+        }
     document.querySelector("#result1").value=resultado;     
 }
