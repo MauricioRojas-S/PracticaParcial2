@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Calculadora en Tiempo Real</h2>
+    <form id="calculatorForm">
+        <label for="a">Ingrese un numero:</label>  
+        <input type="number" id="a"name="a"required>  
+        <label for="b">Ingrese otro numero:</label>  
+        <input type="number" id="b"name="b"required> 
+ 
+        <button type="button" onclick="calculate('sum')">Suma</button>
+        <button type="button" onclick="calculate('res')">Resta</button>
+        <button type="button" onclick="calculate('div')">Division</button>
+        <button type="button" onclick="calculate('mul')">Multiplicacion</button>
+        <button type="button" onclick="calculate('EcuLin')">Ecuacion lineal ax + b = 0</button>
+ 
+        <label>Resultado:</label>
+        <input type="number" id="result1" name="result1" readonly><br><br>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
